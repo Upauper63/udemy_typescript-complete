@@ -65,7 +65,7 @@ function sayHello(): void{
 console.log(sayHello());
 
 
-let tmp: null = undefined;
+let tmp: null = null;
 
 const anotherAdd: (num1: number, num2: number) => number  = function(num1, num2){
     return num1 + num2
